@@ -14,7 +14,9 @@ You can have multiple animations for each sprite . You can tell a sprite to chan
 
 *Scrolling background,Collision,Movement,Rotation,Color adjust,Sprite Mirror/Flip,resize/scaling  
 *Particle,Action game's Sprite jump class  
-*Z-index sorting:Every sprite  has its own Z-index property to determine its rendering order.Also, you can dynamic change Sprite's z layer in real time.  
+*Z-index sorting:  
+Every sprite  has its own Z-index property to determine its rendering order.Also, you can dynamic change Sprite's z layer in real time.
+
 *Camera:Camera movement, Camera can resize and work on any  resolution.and also  follow the player around  
 *sounds:sound  class for play music.Support mp3 midi,wave.  
 *keyboard and mouse input  
