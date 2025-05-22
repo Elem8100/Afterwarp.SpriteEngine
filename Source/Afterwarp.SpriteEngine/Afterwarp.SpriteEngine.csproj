@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AfterwarpFramework">
+      <HintPath>bin\Release\net8.0-windows\AfterwarpFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Bass.Net">
+      <HintPath>bin\Release\net8.0-windows\Bass.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
