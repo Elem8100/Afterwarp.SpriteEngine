@@ -285,7 +285,7 @@ public class Sprite
             Engine.AllCount++;
         }
        
-        X = 0;
+        X = -300;
         Y = 0;
         Z = 0;
 
