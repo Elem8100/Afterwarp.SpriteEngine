@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Particle/1.0.0": {
+        "dependencies": {
+          "Afterwarp.SpriteEngine": "1.0.0.0",
+          "AfterwarpFramework": "1.1.0.0"
+        },
+        "runtime": {
+          "Particle.dll": {}
+        }
+      },
+      "Afterwarp.SpriteEngine/1.0.0.0": {
+        "runtime": {
+          "Afterwarp.SpriteEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AfterwarpFramework/1.1.0.0": {
+        "runtime": {
+          "AfterwarpFramework.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Bass.Net/2.4.17.2": {
+        "runtime": {
+          "Bass.Net.dll": {
+            "assemblyVersion": "2.4.17.2",
+            "fileVersion": "2.4.17.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Particle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Afterwarp.SpriteEngine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AfterwarpFramework/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bass.Net/2.4.17.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
