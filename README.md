@@ -19,9 +19,9 @@ Every sprite  has its own Z-index property to determine its rendering order.Also
   Camera movement, Camera can resize and work on any  resolution.and also  follow the player around  
   
 *sounds: Sound  class for play music.Support mp3 midi,wave.   
-*keyboard and mouse input 
-*Overlay blend mode on sprites
-*Sprite image processing:   
+*keyboard and mouse input   
+*Overlay blend mode on sprites  
+*Sprite image processing:     
 Sprite's image  can be adjust Hue,saturation,brightness in real time.It's hardware level of image processing and without  FPS lost.     
 
 *3 type of SpriteSheet mode:   
