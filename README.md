@@ -1,5 +1,5 @@
 # Afterwarp.SpriteEngine
-The  SpriteEngine is a framework that aims to create 2D game quickly and easily.
+The  SpriteEngine is a framework that aims to create 2D game quickly and easily.  
 It's base on Afterwarp graphic engine:
 
 
@@ -10,7 +10,7 @@ Features:
 *Sprite Animation:  
 You can have multiple animations for each sprite . You can tell a sprite to change animations, or to animate once (leaving the sprite displaying the final frame of the animation 
 
-*sprites with sprite animations, scrolling sprites, repeating sprites and sprite trails
+*sprites with sprite animations, scrolling sprites, repeating sprites and sprite trails   
 *Extensible rendering system. Add/remove Sprites as needed. Renderables are sorted by render layer.   
 
 *Scrolling background,Collision,Movement,Rotation,Color adjust,Sprite Mirror/Flip,resize/scaling  
