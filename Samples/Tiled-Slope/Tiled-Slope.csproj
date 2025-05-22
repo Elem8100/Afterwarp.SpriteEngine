@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tiled_Slope</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Afterwarp.SpriteEngine">
+      <HintPath>..\..\Source\Afterwarp.SpriteEngine\bin\Release\net8.0-windows\Afterwarp.SpriteEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="AfterwarpFramework">
+      <HintPath>..\..\Source\Afterwarp.SpriteEngine\bin\Release\net8.0-windows\AfterwarpFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="TiledCS">
+      <HintPath>bin\Release\net8.0-windows\TiledCS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
