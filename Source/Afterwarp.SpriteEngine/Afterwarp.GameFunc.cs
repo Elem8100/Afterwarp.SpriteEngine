@@ -120,7 +120,7 @@ public class Game
         {
             SwapChain.End();
         }
-        Timer.NextSlice();
+       // Timer.NextSlice();
         Timer.Update();
     }
 
