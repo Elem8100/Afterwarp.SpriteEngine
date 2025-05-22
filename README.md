@@ -6,7 +6,7 @@ https://afterwarp.io/
 The SpriteEngine is a  class/framework which handles Sprite addition, removal, and common behavior. The SpriteManager also manages automatically updated PositionedObjects. By default all entity instances are added to the SpriteManager to have their every-frame activity called.
 
 Features:  
-**.**Sprite Animation:  
+*Sprite Animation:  
 You can have multiple animations for each sprite . You can tell a sprite to change animations, or to animate once (leaving the sprite displaying the final frame of the animation) 
 
 *sprites with sprite animations, scrolling sprites, repeating sprites and sprite trails   
