@@ -7,7 +7,7 @@ The SpriteEngine is a  class/framework which handles Sprite addition, removal, a
 
 Features:  
 *Sprite Animation:  
-You can have multiple animations for each sprite . You can tell a sprite to change animations, or to animate once (leaving the sprite displaying the final frame of the animation 
+You can have multiple animations for each sprite . You can tell a sprite to change animations, or to animate once (leaving the sprite displaying the final frame of the animation) 
 
 *sprites with sprite animations, scrolling sprites, repeating sprites and sprite trails   
 *Extensible rendering system. Add/remove Sprites as needed. Renderables are sorted by render layer.   
