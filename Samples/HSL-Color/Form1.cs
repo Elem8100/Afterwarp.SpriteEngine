@@ -9,30 +9,35 @@ public partial class Form1 : Form
     {
         InitializeComponent();
     }
-    TimerEx TimerEx=new TimerEx();
+    
     private void Form1_Load(object sender, EventArgs e)
     {
         Game.Init();
         Game.LoadTextrues("Images/");
     }
-   
     float Hue;
-    float Saturation, Brightness;
-    float Value = 1;
+    float SatValue,SatStep,BrightValue;
     float Angle;
     
     private void Form1_Paint(object sender, PaintEventArgs e)
     {
-        float Delta = Game.Timer.Latency * 0.00006f;
+        float TimeDelta = Game.Timer.Latency * 0.00006f;
         
-        Angle += 0.005f * Delta;
-        Hue += 1 * Delta;
+        Angle += 0.005f * TimeDelta;
+        Hue += 1 * TimeDelta;
         if (Hue > 180)
             Hue = -180;
-        Value += 0.02f * Delta;
-        Saturation = (float)Math.Sin(Value) * 100;
-        Brightness = (float)Math.Sin(Value) * 100;
-        
+
+        SatValue += SatStep * TimeDelta;
+        float Saturation = (float)Math.Sin(SatValue) * 100;
+        if (Saturation<-90 )
+            SatStep=0.004f;
+        else
+            SatStep=0.02f;
+
+        BrightValue += 0.02f * TimeDelta;
+        float Brightness = (float)Math.Sin(BrightValue) * 100;
+
         Game.Draw(0xFFE1E2E6u, () =>
         {
             GameCanvas.DrawEx(Game.TextureLib["Ship.png"], 200, 250, false, false, Angle, true, 1, 1, 0xFFFFFFFFu,
