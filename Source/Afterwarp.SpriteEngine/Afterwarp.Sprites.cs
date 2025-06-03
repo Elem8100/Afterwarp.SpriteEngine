@@ -745,6 +745,7 @@ public class SpriteEx : Sprite
     public SpriteSheetMode SpriteSheetMode;
     private const float PIConv256 = -40.743665431f; //-128.0 / PI;
     double[] CosTable256;
+    public SpotLight SpotLight;
 
     public override void DoMove(float Delta)
     {
@@ -789,6 +790,14 @@ public class SpriteEx : Sprite
             Action();
             previousTicks = currentTicks;
         }
+    }
+
+    public SpotLight AddSpotLight(int Size, float ScaleY, int OffsetX, int OffsetY)
+    {
+        this.SpotLight = new SpotLight(Size, ScaleY, OffsetX, OffsetY);
+        this.SpotLight.Owner = this;
+        SpotLight.List.Add(this.SpotLight);
+        return this.SpotLight;
     }
 
     public void LookAt(int TargetX, int TargetY)
